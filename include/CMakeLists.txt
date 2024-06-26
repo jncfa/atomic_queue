@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED( VERSION 3.25 )
+CMAKE_MINIMUM_REQUIRED( VERSION 3.19.8 )
 
 add_library(
     atomic_queue
