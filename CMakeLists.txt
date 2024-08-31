@@ -28,3 +28,6 @@ if ( ATOMIC_QUEUE_BUILD_TESTS OR ATOMIC_QUEUE_BUILD_EXAMPLES)
 endif()
 
 add_library(max0x7ba::atomic_queue ALIAS atomic_queue)
+
+install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_PREFIX})
+install(TARGETS atomic_queue DESTINATION lib/${PROJECT_NAME})
